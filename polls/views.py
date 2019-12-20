@@ -6,7 +6,6 @@ from django.utils.translation import ugettext_lazy as _
 
 # Create your views here.
 def index(request):
-    Sessioon
     # translation.activate("nl")
     quote = _("Hello, world. You're at the polls index.")
     quote = quote + ". <a href='/polls/page/'>Page</a>"
